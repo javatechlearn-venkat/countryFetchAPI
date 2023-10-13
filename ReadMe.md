@@ -11,7 +11,7 @@ The country data has to be fetched from this REST API https://gitlab.com/restcou
 This API provides HTTP endpoint's for the following:
 
 * Sorted list of countries by population density in descending order : GET/api/country/getPopulationByDensity
-* Country in Asia containing the most bordering countries of a different region : GET/api/country/getMostBordersCountry 
+* Country in Asia containing the most bordering countries of a different region : GET/api/country/getMostBordersCountry?regionName=Asia
 
 
 
